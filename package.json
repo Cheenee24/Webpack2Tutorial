@@ -1,0 +1,25 @@
+{
+  "name": "webpack2_tutorial",
+  "version": "1.0.0",
+  "description": "tutoral reference from https://www.youtube.com/watch?v=GU-2T7k9NfI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/js/app.js dist/bundle.js",
+    "build:prod": "webpack src/js/app.js dist/bundle.js -p"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cheenee24/Webpack2Tutorial.git"
+  },
+  "author": "Cheenee Colaste",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cheenee24/Webpack2Tutorial/issues"
+  },
+  "homepage": "https://github.com/Cheenee24/Webpack2Tutorial#readme",
+  "devDependencies": {
+    "webpack": "^2.3.3"
+  }
+}
